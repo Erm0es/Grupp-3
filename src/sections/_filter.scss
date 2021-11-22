@@ -4,6 +4,14 @@
   font-size:35px;
 }
 .filterClass {
+  #backToMain{
+    display: flex;
+    justify-content: center;
+    .first-page{
+      @include redBtn;
+      background-color: $c-purple;
+    }
+  }
   #filterTitle{
     font-size:20px;
     color:rgb(85, 84, 84);
